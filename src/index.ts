@@ -24,7 +24,6 @@ export async function fetchUser(id: number): Promise<User> {
 
 export function formatWelcomeMessage(user: User): string {
   const today = format(new Date(), "MMMM do, yyyy");
-  const test = "";
   return `Hello, ${user.name}! Today is ${today}.`;
 }
 
